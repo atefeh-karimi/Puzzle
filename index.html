@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>puzzle</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="move-container">
+      Number Of Moves: <span id="moves">0</span>
+    </div>
+    <div class="secound-countainer">
+      Time: <span id="time">0</span><span>s</span>
+    </div>
+    <table id="table">
+    </table>
+    <br>
+    <br>
+
+    <div class="flex">
+      <label> size : <input type="text" name="size" id="size" value="4"></label>
+      <input type="button" id="newGame" value="Start New Game">
+    </div>
+  </div>
+  <script src="puzzle.js"></script>
+</body>
+
+</html>
